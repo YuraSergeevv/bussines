@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Карточка товара</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="wrapper__content">
+
+            <header style="height:66px;" class="header">
+                <div class="nav-toggle" style="margin-left:40px;">
+                    <button onclick="return false;" class="nav-toggle__btn">Меню</button>
+                </div>
+                <nav class="main-nav d-none d-lg-block">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item">
+                            <a href="http://readytobuystor.wpengine.com/product_category/kupit/" class="main-nav__link main-nav__link_buy">Buy</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="http://office.readytobuystore.com" class="main-nav__link main-nav__link_sell">Sell</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="http://office.readytobuystore.com" class="main-nav__link main-nav__link_ready">Ready to buy</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="http://office.readytobuystore.com" class="main-nav__link main-nav__link_business">Business</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="user-bar">
+                    <div class="user-bar__main user-bar__drop">
+                        <div class="user-bar__inner user-bar__toggle">
+                            <div class="user-bar__img"> <img id="ctl00_imgAvatar" alt="" src="img/user-avatar.jpg" width="40" height="40"> </div>
+                            <div class="user-bar__name">Кузнецов</div>
+                        </div>
+                        <div class="user-bar__dropdown">
+                            <ul class="user-menu">
+                                <li class="user-menu__item"> <a href="/ru-RU/Default.aspx" class="user-menu__link">Главная</a> </li>
+                                <li class="user-menu__item"> <a href="/ru-RU/Self/Default.aspx" class="user-menu__link">Профиль</a> </li>
+                                <li class="user-menu__item"> <a href="/ru-RU/structure/Default.aspx" class="user-menu__link">Структура</a> </li>
+                                <li class="user-menu__item"> <a href="/ru-RU/account/Default.aspx" class="user-menu__link">Личный счет</a> </li>
+                                <li class="user-menu__item"> <a href="/ru-RU/bonuses/Default.aspx" class="user-menu__link">Бонусы</a> </li>
+                                <li class="user-menu__item"> <a href="/SignOut.aspx" class="user-menu__link">Выход</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-bar__lang">
+                        <a href="/en-US/test/Default.aspx" class="user-lang__lang-btn"> <img src="img/svg/ico-flag-eng.svg" width="30" height="20" alt=""> </a>
+                    </div>
+                    <div id="ctl00_CartInfoSmallPanel1_updCartInfo">
+                        <div class="user-bar__cart">
+                            <a href="#" class="user-bar__cart-btn"></a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="header-hreplacer" style="height: 66px;"></div>
+            <div class="slide-nav">
+                <div class="slide-nav__head">Меню</div>
+                <div class="slide-nav__body">
+                    <ul class="slide-nav__menu">
+                        <li class="slide-nav__item"> <a href="/ru-RU/MyOrders/Orderonline/Default.aspx" class="slide-nav__link">Заказ онлайн</a> </li>
+                        <li class="slide-nav__item"> <a href="/ru-RU/MyOrders/cuorder/Default.aspx" class="slide-nav__link">Пополнение счета CU</a> </li>
+                        <li class="slide-nav__item"> <a href="/ru-RU/MyOrders/cupay/Default.aspx" class="slide-nav__link">Мои заказы</a> </li>
+                        <li class="slide-nav__item"> <a href="/ru-RU/MyOrders/PointsHistory/Default.aspx" class="slide-nav__link">История баллов</a> </li>
+                        <li style="display:none;" class="slide-nav__item"> <a href="/ru-RU/MyOrders/contract-offer/Default.aspx" class="slide-nav__link">Заказать договор</a> </li>
+                        <li class="slide-nav__item"> <a href="/ru-RU/MyOrders/cuFillUp/Default.aspx" class="slide-nav__link">Пополнение счета CU с персонального</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="slide-overlay"></div>
+            <!-- Тело============================================================================== -->
+            <main>
+                <!-- Хлебные крошки==================================================================== -->
+                <section class="breadcrumbs">
+                    <div class="container">
+                        <a href="#">Главная</a>
+                        <a href="#">Аккаунт</a>
+                        <span>Часто задаваемые вопросы</span>
+                    </div>
+                </section>
+
+
+                    <div class="container">
+                        <h1 class="heading">Положения торговой площадки</h1>
+                        <div class="block">
+                            <div class="block__title">
+                                <img class="block__title-img" src="img/bussines_1.png" alt="Img">
+                                <h2 class="block__title-text">Основные документы</h2>
+                            </div>
+                            <p class="block__text">Все покупки, которые делает любой зарегистрированный пользователь на площадке через раздел Купить, 
+                                в своем составе имеют 2 части — возможный текст, для примера.</p>
+                                <div class="block__download">
+                                    <a href="#" class="block__donwload-link">Основной контракт</a>
+                                    <span class="block__donwload-text">(.pdf 130Кб)</span>
+                                </div>
+                                <div class="block__download">
+                                    <a href="#" class="block__donwload-link">Соглашение</a>
+                                    <span class="block__donwload-text">(.pdf 130Кб)</span>
+                                </div>
+                        </div>
+                        <div class="block">
+                            <div class="block__title">
+                                <img class="block__title-img" src="img/bussines_1.png" alt="Img">
+                                <h2 class="block__title-text">Документы по внутреннему счёту CU </h2>
+                            </div>
+                            <p class="block__text">Все покупки, которые делает любой зарегистрированный пользователь на площадке через раздел Купить, 
+                                в своем составе имеют 2 части — возможный текст, для примера.</p>
+                                <div class="block__download">
+                                    <a href="#" class="block__donwload-link">Cоглашение по покупке CU</a>
+                                    <span class="block__donwload-text">(.pdf 130Кб)</span>
+                                </div>
+                                <div class="block__download">
+                                    <a href="#" class="block__donwload-link">Соглашение</a>
+                                    <span class="block__donwload-text">(.pdf 130Кб)</span>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+
+
+                </main>
+
+            </div>
+        <!-- /.wrapper__content -->
+        <div class="wrapper__footer">
+
+            <footer class="footer">
+                <div class="container">
+                    <nav class="foot-nav">
+                        <ul class="foot-nav__list">
+                            <li class="foot-nav__item"> <a href="#" class="foot-nav__link">О нас</a> </li>
+                            <li class="foot-nav__item"> <a href="#" class="foot-nav__link">Бизнес</a> </li>
+                            <li class="foot-nav__item"> <a href="/ru-RU/about/Feedback/Default.aspx" class="foot-nav__link">Контакты</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /.wrapper__footer -->
+    </div>
+    <!-- /.wrapper -->
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/fSelect.js"></script>
+    <script type="text/javascript" src="js/validator.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
