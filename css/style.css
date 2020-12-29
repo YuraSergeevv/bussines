@@ -3503,6 +3503,29 @@ margin-bottom: 10px;
     .active{
         width: 85%;
     }
+    /***Бизнес****/
+.block__title-img{
+        width: 40px;
+        height: 45px; 
+
+}
+.block__title-text{
+    font-size: 22px;
+}
+.block__text{
+    font-size: 18px; 
+}
+
+.block__donwload-link{
+    font-size: 16px;
+}
+
+
+.block__donwload-text{
+    display: block;
+    padding: 5px 0 0 20px;
+    font-size: 14px;
+}
 }
 
 
